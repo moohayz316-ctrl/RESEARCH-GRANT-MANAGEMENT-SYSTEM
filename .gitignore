@@ -1,0 +1,25 @@
+# OS files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Uploaded files (not tracked)
+uploads/profiles/*
+uploads/cvs/*
+uploads/proposals/*
+uploads/guidelines/*
+uploads/reports/*
+!uploads/.htaccess
+!uploads/**/.gitkeep
+
+# Logs
+*.log
+
+# Environment
+.env

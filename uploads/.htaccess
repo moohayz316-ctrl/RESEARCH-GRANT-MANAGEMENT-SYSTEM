@@ -1,0 +1,8 @@
+# Deny access to all PHP files in uploads
+<FilesMatch "\.(php|php\d|phtml|pl|py|jsp|asp|aspx|cgi|shtml|sh)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Allow direct access to uploaded files
+Options -Indexes
